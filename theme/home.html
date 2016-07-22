@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>MINIMAL - Free Bootstrap 3 Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/modernizr.custom.js"></script>
+
+
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    .line-1{
+        position: relative;
+        padding-left: 30px;
+        width: 24em;
+        margin: 0 auto;
+        color: rgba(255,255,255,.75);
+        font-family: 'Anonymous Pro', monospace;
+       border-right: 2px solid rgba(255,255,255,.75);
+        font-size: 180%;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
+    }
+
+    /* Animation */
+    .anim-typewriter{
+      animation: typewriter 4s steps(44) 1s 1 normal both,
+                 blinkTextCursor 500ms steps(44) infinite normal;
+    }
+    @keyframes typewriter{
+      from{width: 0;}
+      to{width: 12em;}
+    }
+    @keyframes blinkTextCursor{
+      from{border-right-color: rgba(255,255,255,.75);}
+      to{border-right-color: transparent;}
+    }
+
+    header {
+      position: relative;
+      margin: 100px 0 25px 0;
+      font-size: 2.3em;
+      text-align: center;
+      letter-spacing: 7px;
+    }
+
+    #form {
+      position: relative;
+      width: 500px;
+      margin: 50px auto 100px auto;
+    }
+
+    input {
+      font-family: 'Lato', sans-serif;
+      font-size: 0.875em;
+      width: 470px;
+      height: 50px;
+      padding: 0px 15px 0px 15px;
+
+      background: transparent;
+      outline: none;
+      color: #726659;
+
+      border: solid 1px #b3aca7;
+      border-bottom: none;
+
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+    }
+
+    input:hover {
+      background: #b3aca7;
+      color: #e2dedb;
+    }
+
+    textarea {
+      width: 470px;
+      max-width: 470px;
+      height: 110px;
+      max-height: 110px;
+      padding: 15px;
+
+      background: transparent;
+      outline: none;
+
+      color: #726659;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.875em;
+
+      border: solid 1px #b3aca7;
+
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+    }
+
+    textarea:hover {
+      background: #b3aca7;
+      color: #e2dedb;
+    }
+
+    #submit {
+
+
+      padding: 0;
+      margin: -5px 0px 0px 0px;
+
+      font-family: 'Lato', sans-serif;
+      font-size: 0.875em;
+      color: #b3aca7;
+
+      outline:none;
+      cursor: pointer;
+
+      border: solid 1px #b3aca7;
+      border-top: none;
+    }
+
+    #submit:hover {
+      color: #e2dedb;
+    }
+
+    </style>
+  </head>
+
+  <body  data-spy="scroll" data-offset="0" data-target="#theMenu">
+
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">Robby Schlesinger</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#about" class="smoothScroll">About</a>
+			<a href="#portfolio" class="smoothScroll">Projects</a>
+			<a href="#contact" class="smoothScroll">Contact</a>
+			<a href="https://twitter.com/rlschlesinger"><i class="icon-twitter"></i></a>
+			<a href="https://github.com/rlschlesinger"><i class="icon-github"></i></a>
+			<a href="mailto:robbyschlesinger@gmail.com"><i class="icon-envelope"></i></a>
+		</div>
+
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
+
+
+
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home" name="home"></section>
+	<div id="headerwrap" >
+		<div  class="container">
+
+			<br>
+			<div class="row">
+				<h1 >ROBBY<span style="color: gray;">SCHLESINGER</span></h1>
+				<br>
+				<h3 style="font-weight: bold;" class="line-1 anim-typewriter">Writer and Web Developer</h3>
+				<br>
+				<br>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+
+
+	<!-- ========== ABOUT SECTION ========== -->
+	<section id="about" name="about"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>ABOUT ME</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+				<!-- INTRO INFORMATIO-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>I write both copy and code. I wrote and published my first novel before graduating high school.</p>
+					<p>I have experience with JavaScript, JQuery, and Node.js</p>
+					<p>Sometimes I blog about design and web trends. Also I share links and my thoughts on <a href="https://twitter.com/rlschlesinger">Twitter</a>.</p>
+					<p>Need a freelancer? I'm your guy.</p>
+          <div id="contact" class="contact">
+            <form id="form" class="topBefore" action="mailto:robbyschlesinger@gmail.com" method="post" enctype="text/plain" >
+        		  <input id="name" type="text" placeholder="NAME" name="FirstName">
+        		  <input id="email" type="text" name="Email" placeholder="E-MAIL">
+      		    <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+              <input id="submit" type="submit" name="submit" value="SUBMIT">
+            </form>
+          </div>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /f -->
+
+
+	<!-- ========== CAROUSEL SECTION ========== -->
+	<section id="portfolio" name="portfolio"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<h3>PROJECTS</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active centered">
+								<a href="https://nameless-stream-77226.herokuapp.com/tacks"><img  style="height: 400px; margin: 0 auto; padding-bottom: 50px;" class="img-responsive" src="http://i1350.photobucket.com/albums/p774/Robby_Schlesinger/Screen%20Shot%202016-07-21%20at%2010.44.30%20PM_zpsf3d9vyky.png" alt=""></a>
+							</div>
+							<div class="item centered">
+								<a href="https://github.com/rlschlesinger/the_saurus"><img style="height: 400px; margin: 0 auto; padding-bottom: 50px;" class="img-responsive" src="http://i1350.photobucket.com/albums/p774/Robby_Schlesinger/Screen%20Shot%202016-07-21%20at%2010.47.25%20PM_zpswejvzj2y.png" alt=""></a>
+							</div>
+							<div class="item centered">
+								<a href="https://github.com/rlschlesinger/fauxto"> <img  style="height: 400px; margin: 0 auto; padding-bottom: 50px;" class="img-responsive" src="http://i1350.photobucket.com/albums/p774/Robby_Schlesinger/Screen%20Shot%202016-07-21%20at%2010.59.42%20PM_zpsfncorjys.png" alt=""></a>
+							</div>
+						</div>
+						<br>
+						<br>
+						<ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+					</div>
+				</div><!-- col-lg-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>	<!-- f -->
+
+	<!-- ========== CONTACT SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>CONTACT</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>(775) 685-4179</p>
+					<p>robbyschlesinger@gmail.com</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
